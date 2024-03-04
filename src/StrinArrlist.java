@@ -20,6 +20,6 @@ public class StrinArrlist {
         ArrayList<String> a = new ArrayList<String>();
         a.addAll(Arrays.asList("Ahmed","Giu","Alex","Ahmed","Giu"));
         System.out.println(ReturnFound(a,"Giu"));
-
+        .
     }
 }
