@@ -20,6 +20,7 @@ public class DuplicateArrlist {
             }
         System.out.println(removeDub(a));
 
-        System.out.println("omar ");
+        System.out.println("Hello world");
+
     }
 }
