@@ -20,6 +20,6 @@ public class DuplicateArrlist {
             }
         System.out.println(removeDub(a));
 
-
+        System.out.println("omar marley");
     }
 }
