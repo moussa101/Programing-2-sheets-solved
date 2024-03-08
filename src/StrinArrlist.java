@@ -7,7 +7,7 @@ public class StrinArrlist {
        ArrayList<Integer> c = new ArrayList<Integer>();
         for (int i = 0; i <a.size(); i++) {
            for(String s : a){
-               if (s.equals(b) && !c.contains(a.indexOf(s)))
+               if (s.equals(b))
                    c.add(a.indexOf(s));
            }
         }

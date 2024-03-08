@@ -14,17 +14,17 @@ public class CarDealer {
         Car carToRemove = null;
         for (int i = 0;i<cars.size();i++){
             Car c = cars.get(i);
-            if(c.Model.equals(model)){
-                double profit = c.price*0.02;
+            if(c.getModel().equals(model)){
+                double profit = c.getPrice()*0.02;
                 this.profit+=profit;
-                this.money+=c.price-profit;
+                this.money+=c.getPrice()-profit;
                 this.cars.remove(c);
                 break;
             }
 
         }
         if (carToRemove!= null)
-            System.out.println("Car Sold: "+carToRemove.Make+" "+carToRemove.price);
+            System.out.println("Car Sold: "+carToRemove.getMake()+" "+carToRemove.getPrice());
             else {
                 System.out.println("Car not Found ");
             }
