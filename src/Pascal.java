@@ -13,7 +13,7 @@ public class Pascal {
                 }
             }
         }
-        MatrixSum.display(a);
+        Linear_Algebra.display(a);
 
     }
 }
